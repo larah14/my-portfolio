@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Real Estate Lawyer</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background: white;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+/* HERO */
+.hero {
+    height: 500px;
+    background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    border: none;
+    background: #2c6e91;
+    color: white;
+    cursor: pointer;
+}
+
+/* SERVICES */
+.services {
+    padding: 60px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.service-box {
+    width: 30%;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    border: 3px solid #2c6e91;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.service-box h3 {
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.service-box button {
+    background: #2c6e91;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+}
+
+/* CTA SECTION */
+.cta {
+    text-align: center;
+    padding: 50px;
+}
+
+.cta h2 {
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.cta p {
+    max-width: 600px;
+    margin: auto;
+    font-size: 14px;
+}
+
+/* SUBSCRIBE */
+.subscribe {
+    text-align: center;
+    padding: 40px;
+}
+
+.subscribe input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+}
+
+.subscribe button {
+    padding: 10px 20px;
+    border: none;
+    background: #2c6e91;
+    color: white;
+}
+
+/* ABOUT */
+.about {
+    background: url('https://images.unsplash.com/photo-1492724441997-5dc865305da7') no-repeat center/cover;
+    color: white;
+    padding: 80px;
+    text-align: center;
+}
+
+.about p {
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.about button {
+    padding: 10px 20px;
+    border: none;
+    background: #2c6e91;
+    color: white;
+}
+
+/* RESPONSIVE */
+@media(max-width: 768px) {
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-box {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <h3>LOGO</h3>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Real Estate Law</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+    <div>
+        <h1>YOUR PREFERRED REAL ESTATE LAWYER<br>IN NORTH CAROLINA</h1>
+        <button>View Services</button>
+    </div>
+</div>
+
+<!-- SERVICES -->
+<div class="services">
+    <div class="service-box">
+        <div class="icon">🏠</div>
+        <h3>REAL ESTATE LAW</h3>
+        <p>For services designed to make the real estate process smooth.</p>
+        <button>Read More</button>
+    </div>
+
+    <div class="service-box">
+        <div class="icon">🚚</div>
+        <h3>RESIDENTIAL REAL ESTATE</h3>
+        <p>We assist buyers and sellers in real estate transactions.</p>
+        <button>Read More</button>
+    </div>
+
+    <div class="service-box">
+        <div class="icon">💲</div>
+        <h3>LAWYER</h3>
+        <p>We provide legal services with professionalism.</p>
+        <button>Read More</button>
+    </div>
+</div>
+
+<!-- CTA -->
+<div class="cta">
+    <h2>FOR A SMOOTH TRANSACTION, MAKE US YOUR PREFERRED REAL ESTATE LAWYER IN HUNTERSVILLE.</h2>
+    <p>We guide you through the real estate process and ensure everything is handled professionally.</p>
+</div>
+
+<!-- SUBSCRIBE -->
+<div class="subscribe">
+    <h3>Subscribe to Today's Real Talk Podcast</h3>
+    <br>
+    <input type="text" placeholder="Your Email Address">
+    <button>SUBSCRIBE</button>
+</div>
+
+<!-- ABOUT -->
+<div class="about">
+    <h2>ABOUT</h2>
+    <p>Our goal is always to be accessible, transparent, and helpful in every real estate transaction.</p>
+    <button>Learn More About Us</button>
+</div>
+
+</body>
+</html>
